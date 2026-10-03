@@ -1,0 +1,20 @@
+{
+	"name": "cogent-flow-demo",
+	"private": true,
+	"version": "0.1.0",
+	"type": "module",
+	"description": "Interactive canvas that traces cogent's dataflow: main() → runAgent() → gemini.complete() → tools → UI",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"react": "^19.2.7",
+		"react-dom": "^19.2.7"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-react": "^5.0.0",
+		"vite": "^7.0.0"
+	}
+}

@@ -1,0 +1,19 @@
+# dependencies & build output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# environment & secrets
+.env
+*.local
+
+# local agent state
+.cogent/
+.pi-clone/
+.claude/
+
+# scratch / local artifacts
+op.txt
+test-session.ts
+tmp/
