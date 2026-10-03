@@ -1,30 +1,9 @@
 # cogent
 
-## Demo
 
-[<img src="https://cdn.loom.com/sessions/thumbnails/366914f885fe4241a38b8a9cdad8c09b-84de9d06212644a2.gif" width="640" alt="Watch the cogent walkthrough">](https://www.loom.com/share/366914f885fe4241a38b8a9cdad8c09b)
-
-[Watch the walkthrough](https://www.loom.com/share/366914f885fe4241a38b8a9cdad8c09b) (3:38)
-
-<iframe width="640" height="329" src="https://www.loom.com/embed/366914f885fe4241a38b8a9cdad8c09b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-A minimal coding agent for the terminal. It gives a language model controlled
-access to your filesystem and shell through a small set of tools, then runs an
-autonomous read-act loop until the task is done. Three model providers work out
-of the box (Anthropic, Google Gemini, and Groq) behind a single streaming
-interface.
-
-```bash
-cogent "find every TODO in src/ and tell me what's left"
-echo "explain the agent loop" | cogent -p
-cogent                       # interactive REPL
-```
-
----
 
 ## Contents
 
-- [Demo](#demo)
 - [Overview](#overview)
 - [Features](#features)
 - [System design](#system-design)
